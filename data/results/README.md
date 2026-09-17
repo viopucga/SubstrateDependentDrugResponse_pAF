@@ -18,7 +18,7 @@ One row represents one population, profile, rotor position, drug and concentrati
 
 `baseline_area_cm2` and `drug_area_cm2` contain rotor-tip trajectory areas. Post-drug DF and area are reported only for rotors sustained until the end of the simulation: `drug_df_hz` and `drug_area_cm2` are `NaN` when `cardioversion=1` or when the measurement is not applicable. Their baseline values are retained when a baseline rotor was available.
 
-The table retains baseline and post-drug ERP, CV, DF and rotor-area values. CV columns are `baseline_cv_cm_s` and `drug_cv_cm_s`. Percentage changes can be calculated from these absolute baseline and drug values.
+The table retains baseline and post-drug ERP, CV, DF and rotor-area values. Percentage changes can be calculated from these absolute baseline and drug values.
 
 ## Profile-level dominant frequency
 
