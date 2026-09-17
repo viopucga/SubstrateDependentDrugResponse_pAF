@@ -7,7 +7,7 @@ This package contains side-effect-free calculations extracted from the original 
 - `dominant_frequency.py`: nine-lead pseudo-ECG DF and profile reductions.
 - `cardioversion.py`: termination classification from pseudo-ECG activity.
 - `responders.py`: Figure 6 exclusive-response classes.
-- `rotor.py`: phase singularities, accumulated tip trajectory, and rotor area.
+- `rotor.py`: phase singularities, accumulated tip trajectory and rotor area.
 
 Inputs and numerical conventions are described in the function docstrings and the README files under `data/`. Install the dependencies with `pip install -r requirements.txt` from the repository root.
 
