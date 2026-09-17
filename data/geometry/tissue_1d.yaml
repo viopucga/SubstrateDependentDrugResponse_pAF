@@ -1,0 +1,26 @@
+geometry:
+  file: fiber_1d.vtk
+  representation: two_element_thick_2d_cable
+  dimensions_cm: [4.98, 0.06]
+  spatial_resolution_cm: 0.03
+  nodes: 501
+  quadrilateral_elements: 332
+  fiber_orientation: [1.0, 0.0, 0.0]
+material:
+  longitudinal_conductance_normalized_S_per_cm_pF: 0.0019
+  transverse_to_longitudinal_ratio: 0.35
+  scale_factor: 1.0
+numerics:
+  time_step_ms: 0.02
+protocol:
+  s1_bcl_ms: 1000
+  s1_pulses: 5
+  erp_coupling_interval_start_ms: 50
+  erp_coupling_interval_end_ms: 500
+  erp_coupling_interval_step_ms: 1
+measurements:
+  cv_method: distal_activation_time_difference
+  activation_time_definition: time_of_maximum_membrane_potential_upstroke
+  cv_start_x_cm: 2.49
+  cv_end_x_cm: 3.75
+  cv_output_unit: cm_per_s

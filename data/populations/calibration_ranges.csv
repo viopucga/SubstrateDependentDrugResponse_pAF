@@ -1,0 +1,12 @@
+biomarker,lower_bound,upper_bound,unit
+APD90,160,254,ms
+APD50,0,48,ms
+APD20,1,5,ms
+max_dvdt,0,1000,V/s
+plateau_amplitude,0,1000,mV
+APA,0,200,mV
+RMP,-93,-70,mV
+CaT_min,0.081,0.172,uM
+CaT_max,0.394,0.622,uM
+CaT_amplitude,0.275,0.488,uM
+tau_decay,119,176,ms

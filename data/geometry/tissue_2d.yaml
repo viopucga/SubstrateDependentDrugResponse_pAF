@@ -1,0 +1,35 @@
+geometry:
+  file: tissue_2d.vtk
+  dimensions_cm: [4.98, 4.98]
+  spatial_resolution_cm: 0.03
+  nodes: 27889
+  quadrilateral_elements: 27556
+  fiber_orientation: [0.0, 1.0, 0.0]
+material:
+  longitudinal_conductance_normalized_S_per_cm_pF: 0.0019
+  transverse_to_longitudinal_ratio: 0.35
+  scale_factor: 1.0
+numerics:
+  time_step_ms: 0.02
+protocol:
+  s1_bcl_ms: 1000
+  s1_pulses: 10
+  vulnerable_window_coupling_interval_start_ms: 50
+  vulnerable_window_coupling_interval_end_ms: 500
+  vulnerable_window_coupling_interval_step_ms: 1
+  sustained_rotor_threshold_ms: 6000
+stimulation_masks:
+  s1_vtk_array: S1_nodes
+  s1_node_count: 167
+  s2_vtk_array: S2_nodes
+  s2_node_count: 5368
+pseudo_egm_locations_cm:
+  - [0.5, 4.5]
+  - [2.5, 4.5]
+  - [4.5, 4.5]
+  - [0.5, 2.5]
+  - [2.5, 2.5]
+  - [4.5, 2.5]
+  - [0.5, 0.5]
+  - [2.5, 0.5]
+  - [4.5, 0.5]

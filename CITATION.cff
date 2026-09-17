@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying article."
+title: "Substrate-dependent drug response in paroxysmal atrial fibrillation"
+type: software
+license: GPL-3.0-only
+authors:
+  - family-names: Puche-García
+    given-names: Violeta
+  - family-names: Martinez-Mateu
+    given-names: Laura
+  - family-names: Filgueiras-Rama
+    given-names: David
+  - family-names: Romero
+    given-names: Lucía
+  - family-names: Saiz
+    given-names: Javier
+preferred-citation:
+  type: article
+  title: "Electrophysiological dependent antiarrhythmic drug response in population-based models of paroxysmal atrial fibrillation"
+  journal: "PLOS Computational Biology"
+  authors:
+    - family-names: Puche-García
+      given-names: Violeta
+    - family-names: Martinez-Mateu
+      given-names: Laura
+    - family-names: Filgueiras-Rama
+      given-names: David
+    - family-names: Romero
+      given-names: Lucía
+    - family-names: Saiz
+      given-names: Javier
