@@ -31,4 +31,4 @@ Missing values are omitted when calculating these profile summaries.
 
 ## `exclusive_responders.csv`
 
-This table contains the 169 profiles that respond exclusively to one of the three Figure 6 drugs at the `x1` concentration: flecainide 1.5 µM, vernakalant 10 µM, or tertiapin-Q 0.1 µM. It is generated deterministically from `profile_responder` using `postprocessing.responders.exclusive_responders`; the three drug columns preserve the binary response pattern and `exclusive_drug` names the only effective drug.
+This table contains the 169 profiles that respond exclusively to one of the three Figure 6 drugs at the `x1` concentration: flecainide 1.5 µM, vernakalant 10 µM, or tertiapin-Q 0.1 µM. The three drug columns preserve the binary response pattern and `exclusive_drug` names the only effective drug.
